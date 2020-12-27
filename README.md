@@ -7,7 +7,7 @@ git clone https://github.com/philhartung/aes67-visualization.git
 cd aes67-visualization
 npm install
 ```
-In addition to that, both [gstreamer](https://gstreamer.freedesktop.org/documentation/installing/index.html) and [ffmpeg](https://ffmpeg.org/) need to be installed. 
+In addition to that, both [gstreamer](https://gstreamer.freedesktop.org/documentation/installing/index.html) (there is some issue with L24BE used in AES67 and ffmpeg, thats why gstreamer is used to convert audio) and [ffmpeg](https://ffmpeg.org/) need to be installed. 
 
 ## Usage
 To display the help, execute `node main --help`:
