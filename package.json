@@ -1,0 +1,18 @@
+{
+  "name": "aes67-visualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philipp Hartung",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "sdp-transform": "^2.14.1"
+  }
+}
