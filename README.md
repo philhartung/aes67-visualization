@@ -17,7 +17,7 @@ Usage: main [options]
 Options:
   -V, --version      output the version number
   -f, --file <file>  Input sdp file
-  -t, --type <type>  Visualtization type: ebur, spectrum, ahistogram, avectorscope, showcqt, showfreqs, showspatial, abitscope, showwaves, aphasemeter,
+  -t, --type <type>  Visualtization type: ebur128, spectrum, ahistogram, avectorscope, showcqt, showfreqs, showspatial, abitscope, showwaves, aphasemeter,
                      showvolume
   -h, --help         display help for command
 ```
