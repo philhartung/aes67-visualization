@@ -7,7 +7,7 @@ git clone https://github.com/philhartung/aes67-visualization.git
 cd aes67-visualization
 npm install
 ```
-In addition to that, bot gstreamer and ffmpeg need to be installed. 
+In addition to that, both gstreamer and ffmpeg need to be installed. 
 
 ## Usage
 To display the help, execute `node main --help`:
