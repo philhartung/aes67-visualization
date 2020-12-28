@@ -21,3 +21,16 @@ Options:
                      showvolume
   -h, --help         display help for command
 ```
+
+## Examples
+`node main -f pgm.sdp -t ebur128`:
+![Screenshot](doc/ebur128.png "ebur128")
+
+`node main -f pgm.sdp -t showvolume`:
+![Screenshot](doc/showvolume.png "showvolume")
+
+`node main -f pgm.sdp -t spectrum`:
+![Screenshot](doc/spectrum.png "spectrum")
+
+`node main -f pgm.sdp -t showwaves`:
+![Screenshot](doc/showwaves.png "showwaves")
