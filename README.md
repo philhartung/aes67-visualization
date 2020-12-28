@@ -34,3 +34,20 @@ Options:
 
 `node main -f pgm.sdp -t showwaves`:
 ![Screenshot](doc/showwaves.png "showwaves")
+
+`pgm.sdp` is as AES67 sdp file from a Dante device in AES67 mode:
+```
+v=0
+o=- 1206666431 1206666436 IN IP4 10.10.0.118
+s=EXBOXMD : 31
+i=2 channels: Ch 3, Ch 4
+c=IN IP4 239.69.161.58/32
+t=0 0
+a=keywds:Dante
+a=recvonly
+m=audio 5004 RTP/AVP 97
+a=rtpmap:97 L24/48000/2
+a=ptime:1
+a=ts-refclk:ptp=IEEE1588-2008:00-1D-C1-FF-FE-00-00-00:0
+a=mediaclk:direct=0
+```
